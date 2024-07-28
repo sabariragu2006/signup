@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('includes/bg.avif');
+    background-size: cover;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+}
+#form2{
+    height: 550px;
+    width: 430px;
+}
+
+.form{
+    margin: 40px;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Custom shadow */
+    border-radius: 10px; /* Optional: rounded corners */
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    
+    
+}
+
+.form h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.form input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+    margin: 35px;
+}
+.form button{
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #ff523b;
+}
